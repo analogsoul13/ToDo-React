@@ -35,13 +35,16 @@ function App() {
   }
 
   return (
-    <div className='bg-black h-screen'>
+    <div className='bg-black h-full'>
       <div className='flex justify-center p-4'>
         <p className='text-blue-100 text-3xl font-bold'>Get Things Done !</p>
       </div>
       <div className='mx-auto rounded-xl shadow-2xl shadow-blue-400 max-w-[750px] min-h-[550px] bg-white'>
         <Input handler={addToDoHandler} />
         <TaskContainer data={todos} removeHandler={removeTask} />
+      </div>
+      <div className='flex justify-center p-2'>
+        <a href='https://github.com/analogsoul13' className='text-sm text-gray-400'>analogsoul13</a>
       </div>
     </div>
   );

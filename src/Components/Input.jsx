@@ -5,7 +5,7 @@ const Input = (props) => {
   const inputBox = useRef();
   return (
     <div className='flex p-3 justify-around'>
-      <input type="text" placeholder='Enter Your Tasks Here' className='p-3 mt-5 focus:outline-none border w-[90%] border-slate-400' ref={inputBox} />
+      <input type="text" placeholder='Enter Your Tasks Here' className='p-3 mt-5 focus:outline-none border w-[80%] border-slate-400' ref={inputBox} />
 
       <div onClick={() => {
         props.handler(inputBox.current.value) 
