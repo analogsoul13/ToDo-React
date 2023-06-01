@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className='bg-black h-full'>
+    <div className='bg-black h-screen'>
       <div className='flex justify-center p-4'>
         <p className='text-blue-100 text-3xl font-bold'>Get Things Done !</p>
       </div>
