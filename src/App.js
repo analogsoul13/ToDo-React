@@ -35,7 +35,7 @@ function App() {
   }
 
   return (
-    <div className='bg-black h-screen'>
+    <div className='bg-black h-full'>
       <div className='flex justify-center p-4'>
         <p className='text-blue-100 text-3xl font-bold'>Get Things Done !</p>
       </div>
@@ -43,7 +43,7 @@ function App() {
         <Input handler={addToDoHandler} />
         <TaskContainer data={todos} removeHandler={removeTask} />
       </div>
-      <div className='flex justify-center p-2'>
+      <div className='flex justify-center py-8 p-2'>
         <a href='https://github.com/analogsoul13' className='text-sm text-gray-400'>analogsoul13</a>
       </div>
     </div>
